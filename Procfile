@@ -1,1 +1,1 @@
-web:python manage.py collectstatic ,gunicorn djan_backend.wsgi
+gunicorn djan_backend.wsgi
